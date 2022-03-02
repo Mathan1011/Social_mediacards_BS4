@@ -16,3 +16,16 @@ color: #1070ecbd;
 .box{
     padding: 60px 0px;
 }
+
+.box header {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .box {
+        padding: 0;
+    }
+    .cards {
+        margin: 10px 0;
+    }
+}
